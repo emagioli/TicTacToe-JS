@@ -78,5 +78,6 @@ function lineIsFulfilled(combination) {
 function resetGame() {
     board = ["", "", "", "", "", "", "", "", ""];
     currentTurn = 0;
+    currentPlayer = 0;
     gameOver = false;
 }
